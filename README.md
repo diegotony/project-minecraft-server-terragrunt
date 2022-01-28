@@ -1,4 +1,22 @@
 # Minecraft Server
+## Dependencies
+- Docker
+- AWS Credentials
+
+## Instructions
+```bash
+# You need set your AWS credentials in .env file, for more informaction check **.env.template**
+bash server.sh init
+bash server.sh plan
+bash server.sh apply
+
+# In case the destroy the resources
+bash server.sh destroy
+
+# In case the clean Env the resources
+bash server.sh clean
+```
+
 ## Resources
 - https://learn.hashicorp.com/tutorials/terraform/lambda-api-gateway
 
