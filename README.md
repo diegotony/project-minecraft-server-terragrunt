@@ -1,4 +1,5 @@
 # Minecraft Server
+Create a Minecraft server using terragrunt and Docker
 ## Dependencies
 - Docker
 - AWS Credentials
